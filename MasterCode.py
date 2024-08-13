@@ -10,14 +10,14 @@ from tkinter.ttk import Progressbar, Style
 
 # Configuration dictionary to store the necessary configuration values
 CONFIG = {
-    'access_token': os.getenv('SMARTSHEET_ACCESS_TOKEN', "FHrmEeDnC1oEBmBaWTCp1SNvtdEFbNdT2pEgc"),  # Access token for Smartsheet API
+    'access_token': os.getenv('SMARTSHEET_ACCESS_TOKEN', ""),  # Access token for Smartsheet API
     'sheet_mapping': {  # Mapping of sheet names to their respective Smartsheet IDs
-        "AngleMaster": "2865724263452548",
-        "Beamline": "8633118017671044",
-        "Daily": "6630177199050628",
-        "Paint": "6705691314048900",
-        "PlateTable": "2861850202951556",
-        "Shipping": "589005049515908"
+        "AngleMaster": "",
+        "Beamline": "",
+        "Daily": "",
+        "Paint": "",
+        "PlateTable": "",
+        "Shipping": ""
     },
     'base_path': r"T:\\Production reports\\",  # Base path for production reports
     'results_file_path': r"T:\\Production reports\\Results.txt"  # Path to store results
